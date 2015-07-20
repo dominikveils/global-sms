@@ -4,7 +4,7 @@ Simple GlobalSMS.co.il API helper class
 
 Installation
 ============
-`composer require dominik/global-sms`
+`composer require dominikveils/global-sms`
 
 Usage
 ============
