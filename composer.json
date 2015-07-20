@@ -1,5 +1,5 @@
 {
-    "name": "dominik/global-sms",
+    "name": "dominikveils/global-sms",
     "description": "globalsms.co.il PHP helper class. Implements basic GlobalSMS API.",
     "license": "MIT",
     "authors": [
