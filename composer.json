@@ -1,6 +1,8 @@
 {
     "name": "dominikveils/global-sms",
     "description": "globalsms.co.il PHP helper class. Implements basic GlobalSMS API.",
+    "keywords": ["sms","globalsms", "globalsms.co.il"],
+    "homepage": "https://github.com/dominikveils/global-sms",
     "license": "MIT",
     "authors": [
         {
