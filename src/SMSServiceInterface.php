@@ -15,22 +15,18 @@ interface SMSServiceInterface {
   /**
    * Returns the Sms balance of the account.
    *
-   * @return mixed
+   * @return int
    */
   public function getSmsCount();
 
   /**
    * Get Sms Delivery Statuses , returns data table for requested date.
    *
+   * @param int $day
+   * @param int $month
+   * @param int $year
+   *
    * @return mixed
    */
   public function getSmsDeliveryStatuses($day = null, $month = null, $year = null);
-
-  /**
-   * Set SoapClient instance
-   * 
-   * @param SoapClient @client
-   *
-   */
-  public function setSoapClient(SoapClient $client);
 }

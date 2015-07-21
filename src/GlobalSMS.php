@@ -54,7 +54,7 @@ class GlobalSMS implements SMSServiceInterface {
   /**
    * Returns the Sms balance of the account.
    *
-   * @return mixed
+   * @return int
    */
   public function getSmsCount()
   {
@@ -72,6 +72,10 @@ class GlobalSMS implements SMSServiceInterface {
 
   /**
    * Get Sms Delivery Statuses , returns data table for requested date.
+   *
+   * @param int $day
+   * @param int $month
+   * @param int $year
    *
    * @return mixed
    */
